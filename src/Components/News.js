@@ -81,7 +81,7 @@ export class News extends Component {
           NewsMonkey - Top Headlines from{" "}
           {this.capitalizeFirstLetter(this.props.category)}{" "}
         </h1>
-        {/* {this.state.loading && <Spinner />} */}
+         {/* {this.state.loading && <Spinner />} */}
         <InfiniteScroll
         dataLength={this.state.articles.length}
         next={this.fetchMoreData}
